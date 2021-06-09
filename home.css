@@ -1,7 +1,7 @@
 .container {
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    grid-template-rows: 185px 300px repeat(3,250px);
+    grid-template-rows: 185px 300px repeat(4,250px);
     background-color: whitesmoke;
 }
 #branding {
@@ -70,7 +70,7 @@
     font-weight:400;
     vertical-align: middle;
 }
-.interests{
+.about{
     grid-row: 4 / 5;
     grid-column: 2 / -1;
     background-color: #cce8e8;
@@ -82,12 +82,24 @@
     font-weight:400;
     vertical-align: middle;
 }
-.portfolio{
+.interests{
     grid-row: 5 / 6;
     grid-column: 1 / 2;
     background-color: #cce8e8;
     padding: 0px 100px 0px 100px;
     margin-right:50px;
+    margin-bottom: 25px;
+    margin-top:25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:400;
+    vertical-align: middle;
+}
+.portfolio{
+    grid-row: 6 / 7;
+    grid-column: 2 / -1;
+    background-color: #cce8e8;
+    padding: 0px 100px 0px 100px;
+    margin-left:50px;
     margin-bottom: 25px;
     margin-top:25px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;

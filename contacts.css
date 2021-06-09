@@ -31,7 +31,6 @@
 .nav-lists a:hover{
     background-color: #ddd;
     color: black;
-    
 }
 .nav-lists a.active {
     background-color: darkcyan;
@@ -98,8 +97,8 @@ span{
 .input {
     background-color: transparent;
     border: none;
-    border-bottom: 1px solid #CCC;
-    color: #555;
+    border-bottom: 1px solid black;
+    color: darkcyan;
     box-sizing: border-box;
     font-family: 'Arvo';
     font-size: 18px;
@@ -117,7 +116,7 @@ span{
   }
 
 .input::-webkit-input-placeholder {
-    color: #AAA;
+    color: darkcyan;
   }
   
 .input:focus::-webkit-input-placeholder {
