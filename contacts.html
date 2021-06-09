@@ -1,37 +1,65 @@
-<style></style>
-<head>
-    <title>About Me</title>
-</head>
-<header>
-    <div>
-        <div>
-            <h1>Maria O.</h1>
-        </div>
-        <nav>
-            <ul>
-                <li><a href = .links>home.</a></li>
-                <li><a href = .links>about.</a></li>
-                <li><a href = .links>skills.</a></li>
-                <li><a href = .links>interests.</a></li>
-                <li><a href = .links>portfolio.</a></li>
-                <li><a href = .links>contacts.</a></li>
-            </ul>
-        </nav>
-    </div>
-</header>
-<body>
-    <main>
-        <h2>contact.</h2>
-        <h3>Trying to get in contact with me? Want to chat? No problem!</h3>
-        <section>
-            <form method="post" action="mailto:marianatalie643@gmail.com">
-                <input type="text" placeholder="name"><br>
-                <input type="text" placeholder="email"><br>
-                <input type="text" placeholder="phone"><br>
-                <input type="text" placeholder="message"><br>
-                <button type="submit">Submit</button> 
-            </form>
-        </section>
+<!DOCTYPE html>
+    <head>
+        <title>About Me</title>
+        <link rel="stylesheet" href="contacts.css">
+    </head>
+    <div class="container">
+        <div id="branding">
+            <header>
+                <h1>Maria Otieno</h1>
+                <br><br><br>
+                <nav class="nav-lists">
+                    <a href = .links>home.</a>
+                    <a href = .links>about.</a>
+                    <a href = .links>skills.</a>
+                    <a href = .links>interests.</a>
+                    <a href = .links>portfolio.</a>
+                    <a class= "active" href = .links>contacts.</a>
 
-    </main>
-</body>
+                </nav>
+            </header>
+        </div>
+
+        <div class="sub-heading">
+            <h2>contact.</h2>
+        </div>
+
+        <div class="theme-intro">
+            <h4>contact information</h4>
+        </div>
+
+        <div class="address">
+            <img src="" alt="An image of a navigation arrow">
+            <p><span>Address:</span> Lang'ata, Kitengela Road, Nairobi</p>
+        </div>
+
+        <div class="number">
+            <img src="" alt="An image of a small phone">
+            <p><span>Phone Number:</span> +254724166582</p>
+            <p><span>Alternative Phone Number:</span> +447547787291</p>
+        </div>
+
+        <div class="email">
+            <img src="" alt="An image of a letter">
+            <p><span>E-mail address: </span>marianatalie643@gmail.com</p>
+        </div>
+
+        <div class="opener">
+            <h3>Trying to get in contact with me? Want to chat? No problem!</h3>
+        </div>
+
+        <div class="button-group">
+            <form method="post" action="mailto:marianatalie643@gmail.com">
+                <input class="input" type="text" placeholder="name">
+                <span class="underline"></span><br>
+                <input class="input" type="text" placeholder="email">
+                <span class="underline"></span><br>
+                <input class="input" type="text" placeholder="phone">
+                <span class="underline"></span><br>
+                <input class="input" type="text" placeholder="message">
+                <span class="underline"></span><br>
+                <button class="button" type="submit">Submit</button> 
+            </form>
+        </div>
+    </div>
+</html>

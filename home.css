@@ -1,0 +1,95 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 185px 300px repeat(3,250px);
+    background-color: whitesmoke;
+}
+#branding {
+    grid-row: 1 / 2;
+    grid-column: 1 / -1;
+    color:white;
+    background-color: teal;
+    text-align: center; 
+}
+.nav-lists {
+    grid-row: 1 / 2;
+    grid-column: 1 / -1;
+    display:flex;
+    justify-content: space-evenly;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+    overflow: hidden;
+    text-decoration: none;
+
+}
+.nav-lists p {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    
+    font-size: 17px
+}
+.sub-heading{
+    grid-row: 2 / 3;
+    grid-column: 1 / -1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0px 300px 0px 300px;
+}
+.theme{
+    font-size: 36px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 0px 150px 0px 150px;
+    color: teal;
+}
+
+.theme-intro{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 0px 25px 0px 25px;
+}
+.skills{
+    grid-row: 3 / 4;
+    grid-column: 1 / 2;
+    background-color: #cce8e8;
+    padding: 0px 100px 0px 100px;
+    margin-right:50px;
+    margin-bottom: 25px;
+    margin-top:25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:400;
+    vertical-align: middle;
+}
+.interests{
+    grid-row: 4 / 5;
+    grid-column: 2 / -1;
+    background-color: #cce8e8;
+    padding: 0px 100px 0px 100px;
+    margin-left:50px;
+    margin-bottom: 25px;
+    margin-top:25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:400;
+    vertical-align: middle;
+}
+.portfolio{
+    grid-row: 5 / 6;
+    grid-column: 1 / 2;
+    background-color: #cce8e8;
+    padding: 0px 100px 0px 100px;
+    margin-right:50px;
+    margin-bottom: 25px;
+    margin-top:25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:400;
+    
+    vertical-align: middle;
+}
+.button-right{
+    float:right;
+}
+.button-left{
+    float:left;
+}
+

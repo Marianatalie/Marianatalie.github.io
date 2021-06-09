@@ -1,0 +1,61 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 170px 380px 380px 380px;
+    background-color: whitesmoke;
+}
+#branding{
+    color:white;
+    background-color: teal;
+    text-align: center;
+    grid-row: 1 / 2;
+    grid-column: 1 / -1;
+
+}
+.nav-lists{
+    grid-row: 1 / 2;
+    grid-column: 1 / -1;
+    display:flex;
+    justify-content: space-evenly;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sub-heading{
+    grid-row: 2 / 3;
+    grid-column: 1 / -1;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+}
+.theme{
+    font-size: 26px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 0px 150px 0px 150px;
+    color: teal;
+}
+.theme-intro{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 0px 200px 0px 200px;
+}
+.first-block{
+    grid-row: 3 / 4;
+    grid-column: 1 / 2;
+    text-align: left;
+    background-color: #cce8e8;
+    padding-right: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:400;
+    float: left;
+}
+.second-block{
+    grid-row: 4 / 5;
+    grid-column: 2 / -1;
+    text-align: left;
+    background-color: #cce8e8;
+    padding-left: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:400;
+    float: right;
+}
