@@ -56,6 +56,11 @@
 span{
     font-weight: bold;
 }
+.photoicon{
+    border: 5px solid;
+    border-radius: 50%;
+    border-color: darkcyan;
+}
 .address{
     grid-row: 4 / 5;
     grid-column: 1 / 2;
