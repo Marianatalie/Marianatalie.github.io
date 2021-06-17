@@ -1,7 +1,7 @@
 .container{
     display: grid;
     grid-template-columns: 1fr 850px 1fr;
-    grid-template-rows: 170px 150px 150px 380px;
+    grid-template-rows: 185px 150px 150px 380px 195px;
     background-color: whitesmoke;
     grid-template-areas:
     "branding branding branding"
@@ -51,6 +51,7 @@
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 36px;
+    padding-top: 60px;
 }
 .opener{
     grid-area: opener;
@@ -89,4 +90,10 @@
     border-style: groove;
     border-radius: 50px;
     border-width: 10px;
+}
+.footer{
+    grid-row: 5 / 6;
+    grid-column: 1 / -1;
+    background-color: teal;
+    font-family: Arial, Helvetica, sans-serif;
 }

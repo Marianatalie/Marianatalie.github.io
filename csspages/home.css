@@ -1,7 +1,7 @@
 .container {
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    grid-template-rows: 185px 650px repeat(3,260px) 300px;
+    grid-template-rows: 185px 700px repeat(3,260px) 300px 195px;
     background-color: whitesmoke;
 }
 #branding {
@@ -11,6 +11,9 @@
     background-color: teal;
     text-align: center; 
 }
+/*#header-logo{
+    float:left;
+}*/
 .nav-lists {
     grid-row: 1 / 2;
     grid-column: 1 / -1;
@@ -41,7 +44,7 @@
     grid-row: 2 / 3;
     grid-column: 1 / -1;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 0px 300px 0px 300px;
+    padding: 100px 300px 0px 300px;
 }
 .laptop-pic{
     display: block;
@@ -106,9 +109,9 @@
     vertical-align: middle;
 }
 .portfolio{
-    grid-row: 6 / 7;
+    grid-row: 6 / 7;background-color: #cce8e8;
     grid-column: 2 / -1;
-    background-color: #cce8e8;
+    
     padding: 0px 100px 0px 100px;
     margin-left:50px;
     margin-bottom: 25px;
@@ -123,5 +126,11 @@
 }
 .button-left{
     float:left;
+}
+.footer{
+    grid-row: 7 / 8;
+    grid-column: 1 / -1;
+    background-color: teal;
+    font-family: Arial, Helvetica, sans-serif;
 }
 

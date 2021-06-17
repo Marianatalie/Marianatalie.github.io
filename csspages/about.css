@@ -1,32 +1,33 @@
 .container{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    grid-template-rows: 170px 400px 400px 380px;
+    grid-template-rows: 185px 400px 400px 380px 195px;
     background-color: whitesmoke;
     grid-template-areas:
       "branding branding"
       "sub-heading sub-heading"
       "first-block pic-block"
-      "pic-block2 second-block";
+      "pic-block2 second-block"
+      "footer footer";
 }
 #branding{
     color:white;
     background-color: teal;
     text-align: center;
-    grid-area: branding;
-    /*grid-row: 1 / 2;
-    grid-column: 1 / -1;*/
+    grid-row: 1 / 2;
+    grid-column: 1 / -1;
 
 }
 .nav-lists{
-    grid-area: branding;
-    /*grid-row: 1 / 2;
-    grid-column: 1 / -1;*/
+    
+    grid-row: 1 / 2;
+    grid-column: 1 / -1;
     display:flex;
     justify-content: space-evenly;
     font-family: Arial, Helvetica, sans-serif;
     background-color: whitesmoke;
     overflow: hidden;
+  
 }
 .nav-lists a {
     float: left;
@@ -51,6 +52,8 @@
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 36px;
+    padding-top: 60px;
+
 }
 .theme{
     font-size: 26px;
@@ -120,4 +123,10 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight:400;
     float: right;
+}
+.footer{
+    grid-row: 5 / 6;
+    grid-column: 1 / -1;
+    background-color: teal;
+    font-family: Arial, Helvetica, sans-serif;
 }
