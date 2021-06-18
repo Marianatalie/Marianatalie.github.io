@@ -1,7 +1,7 @@
 .container{
     display: grid;
     grid-template-columns: 1fr 850px 1fr;
-    grid-template-rows: 185px 150px 150px 380px 195px;
+    grid-template-rows: 185px 150px 150px 390px 195px;
     background-color: whitesmoke;
     grid-template-areas:
     "branding branding branding"
