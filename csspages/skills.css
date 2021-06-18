@@ -1,7 +1,7 @@
 .container{
     display: grid;
-    grid-template-columns: 1fr 850px 1fr;
-    grid-template-rows: 185px 150px 150px 390px 195px;
+    grid-template-columns: 1.5fr 4fr 1.5fr;
+    grid-template-rows: 0.15fr repeat(2,0.14fr) 0.3fr 0.15fr;
     background-color: whitesmoke;
     grid-template-areas:
     "branding branding branding"
@@ -50,8 +50,9 @@
     grid-column: 1 / -1;*/
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
     font-size: 36px;
-    padding-top: 60px;
+    
 }
 .opener{
     grid-area: opener;
@@ -62,6 +63,7 @@
     text-align: center;
     padding: 0px 150px 0px 150px;
     color: teal;
+    background-color: whitesmoke;
 }
 .list{
     grid-area: list2;
@@ -96,4 +98,10 @@
     grid-column: 1 / -1;
     background-color: teal;
     font-family: Arial, Helvetica, sans-serif;
+}
+.right{
+    text-align: right;
+}
+.left{
+    text-align: left;
 }
