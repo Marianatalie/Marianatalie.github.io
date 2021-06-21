@@ -23,142 +23,138 @@
             </header>
         </div>
 
-
-        <div class="sub-heading">
-            <h2> about. </h2>
-            <h3 class="theme">I am a lover of learning and passionate about innovation in a way that impacts the society. </h3>
-            <p class="theme-intro">I really enjoy studying a variety of subjects to understand how the world works in its current state and the reasons for it. 
-                The topics span from technology and engineering to entrepreneurship and philosophy. I relish creating products such as software that are impactful to society and help solve specific societal issues. </p>
-        </div>
-        <div class="first-block">
-            <h3 class="opener">I'd like to think of my background as a system of gears working together to execute a function.</h3>
-            <p>I just finished my Bachelors in Mechatronic Engineering at University of Glasgow.The course is an interdiscplinary branch that 
-                studies a combination of mechanical, electrical and software engineering. Here, I learned the basics of low-level coding to 
-                control industrial machines setup for various uses. Amongst the programming languages I encountered was C and MATLAB. I also learned the ropes of embedded programming, robotics and control.
-                This served as the basis for my entry into the software engineering and development space, as well as the first gear rotating in the system.
-            </p>
-                
-            <p>From this, the next gear kept the momentum going leading to my enrollment for a unit being offered by an orgnization known as CodeFirstGirls where I was introduced to the 
-                basics of using HTML and CSS for frontend web development. In my third year, I had a unit in software engineering which 
-                prompted me to start self-learning Python on Udemy.
-            </p>
-        </div>
-       <!-- <div class="pic-block">
-            <div class="vertical"><img src = "Images/nightwalk.jpg" ></div> 
-            <div class="horizontal"><img src="Images/pthetic2.jpg"></div>
-            <div class="vertical"><img src="Images/robotics.jpg" ></div> 
-            <div class="horizontal"><img src="Images/castle.jpg"  ></div>  
-        </div> -->
-        <div class="pic-block">
-            <div class="slideshow-container">
-                <div class="mySlides fade">
-                    <div class="numbertext">1</div>
-                    <img src="Images/nightwalk.jpg" style="width:90%">
-                    <div class="text">Nightwalk in Glasgow Streets</div>
-                </div>
-                
-                <div class="mySlides fade">
-                    <div class="numbertext">2</div>
-                    <img src="Images/prosthetic.png" style="width:80%">
-                    <div class="text">Prototype prosthetic hand</div>
-                </div>
-                
-                <div class="mySlides fade">
-                    <div class="numbertext">3</div>
-                    <img src="Images/robotics.jpeg" style="width:90%">
-                    <div class="text">Automated LEGO catapult robot</div>
-                </div>
-
-                <div class="mySlides fade">
-                    <div class="numbertext">4</div>
-                    <img src="Images/castle.jpg" style="width:120%">
-                    <div class="text">Distant View of Glasgow University(Main Building)</div>
-                </div>
-
-                <div class="mySlides fade">
-                    <div class="numbertext">5</div>
-                    <img src="Images/cfg.png" style="width:120%">
-                    <div class="text">CodeFirstGirl Logo</div>
-                </div>
-
-                <div class="mySlides fade">
-                    <div class="numbertext">6</div>
-                    <img src="Images/udemy.jpg" style="width:120%">
-                    <div class="text">Udemy Logo</div>
-                </div>
-
-                <div class="mySlides fade">
-                    <div class="numbertext">7</div>
-                    <img src="Images/umuzi.jpg" style="width:120%">
-                    <div class="text">Umuzi Logo</div>
-                </div>
-                
-                <!-- Next and previous buttons -->
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
+        <body>
+            <div class="sub-heading">
+                <h2> about. </h2>
+                <h3 class="theme">I am a lover of learning and passionate about innovation in a way that impacts the society. </h3>
+                <p class="theme-intro">I really enjoy studying a variety of subjects to understand how the world works in its current state and the reasons for it. 
+                    The topics span from technology and engineering to entrepreneurship and philosophy. I relish creating products such as software that are impactful to society and help solve specific societal issues. </p>
             </div>
-            <div style="text-align:center">
-                <span class="dot" onclick="currentSlide(1)"></span>
-                <span class="dot" onclick="currentSlide(2)"></span>
-                <span class="dot" onclick="currentSlide(3)"></span>
-                <span class="dot" onclick="currentSlide(4)"></span>
-                <span class="dot" onclick="currentSlide(5)"></span>
-                <span class="dot" onclick="currentSlide(6)"></span>
-                <span class="dot" onclick="currentSlide(7)"></span>
-            </div>
-
-        </div>
-        <script>
-            var slideIndex = 1;
-            showSlides(slideIndex);
-
-            // Next/previous controls
-            function plusSlides(n) {
-            showSlides(slideIndex += n);
-            }
-
-            // Thumbnail image controls
-            function currentSlide(n) {
-            showSlides(slideIndex = n);
-            }
-
-            function showSlides(n) {
-            var i;
-            var slides = document.getElementsByClassName("mySlides");
-            var dots = document.getElementsByClassName("dot");
-            if (n > slides.length) {slideIndex = 1}
-            if (n < 1) {slideIndex = slides.length}
-            for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";
-            }
-            for (i = 0; i < dots.length; i++) {
-                dots[i].className = dots[i].className.replace(" active", "");
-            }
-            slides[slideIndex-1].style.display = "block";
-            dots[slideIndex-1].className += " active";
-            }
-        </script>
-
-        
-        <div class="second-block">
-            <p>Moreover, for my final year project, I used the aforementioned skills I had acquired in the development and design of the 
-                user interface for a computer-aided manufacturing software. The application was made to ensure a user-friendly program for 
-                the generation of meshes of engineering materials and further reinforced my "system's" efficiency of heading into software.
-            </p>
-            <p>Currently, I am registered for a class in SQL and data programming being offered by CodeFirstGirls, where I am gaining 
-                skills in dealing with databases and their management of big data. I am also enrolled in a bootcamp known as Umuzi. It 
-                helps in my learning of all the ins and outs of web development such as proper coding practices, test driven development, 
-                object oriented programming etc. I have also learned the basics of a new language, JavaScript, which is an added bonus.I 
-                look forward to learning more and using this knowledge for the creation of even more complex and impactful projects. The goal remains
-                keeping the momentum and efficiency of this system going long enough to discover its final function.
-            </p>
+            <div class="first-block">
+                <h3 class="opener">I'd like to think of my background as a system of gears working together to execute a function.</h3>
+                <p>I just finished my Bachelors in Mechatronic Engineering at University of Glasgow.The course is an interdiscplinary branch that 
+                    studies a combination of mechanical, electrical and software engineering. Here, I learned the basics of low-level coding to 
+                    control industrial machines setup for various uses. Amongst the programming languages I encountered was C and MATLAB. I also learned the ropes of embedded programming, robotics and control.
+                    This served as the basis for my entry into the software engineering and development space, as well as the first gear rotating in the system.
+                </p>
                     
-        </div> 
-        <footer class="footer">
-            <img src="Images/personal_logo2.PNG">
-            <p>&copy; Copyright2021 MariaO.</p>
-        </footer>
+                <p>From this, the next gear kept the momentum going leading to my enrollment for a unit being offered by an orgnization known as CodeFirstGirls where I was introduced to the 
+                    basics of using HTML and CSS for frontend web development. In my third year, I had a unit in software engineering which 
+                    prompted me to start self-learning Python on Udemy.
+                </p>
+            </div>
+        
+            <div class="pic-block">
+                <div class="slideshow-container">
+                    <div class="mySlides fade">
+                        <div class="numbertext">1</div>
+                        <img src="Images/nightwalk.jpg" style="width:90%">
+                        <div class="text">Nightwalk in Glasgow Streets</div>
+                    </div>
+                    
+                    <div class="mySlides fade">
+                        <div class="numbertext">2</div>
+                        <img src="Images/prosthetic.png" style="width:80%">
+                        <div class="text">Prototype prosthetic hand</div>
+                    </div>
+                    
+                    <div class="mySlides fade">
+                        <div class="numbertext">3</div>
+                        <img src="Images/robotics.jpeg" style="width:90%">
+                        <div class="text">Automated LEGO catapult robot</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">4</div>
+                        <img src="Images/castle.jpg" style="width:120%">
+                        <div class="text">Distant View of Glasgow University(Main Building)</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">5</div>
+                        <img src="Images/cfg.png" style="width:120%">
+                        <div class="text">CodeFirstGirl Logo</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">6</div>
+                        <img src="Images/udemy.jpg" style="width:120%">
+                        <div class="text">Udemy Logo</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">7</div>
+                        <img src="Images/umuzi.jpg" style="width:120%">
+                        <div class="text">Umuzi Logo</div>
+                    </div>
+                    
+                    <!-- Next and previous buttons -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                </div>
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                    <span class="dot" onclick="currentSlide(5)"></span>
+                    <span class="dot" onclick="currentSlide(6)"></span>
+                    <span class="dot" onclick="currentSlide(7)"></span>
+                </div>
+
+            </div>
+            <script>
+                var slideIndex = 1;
+                showSlides(slideIndex);
+
+                // Next/previous controls
+                function plusSlides(n) {
+                showSlides(slideIndex += n);
+                }
+
+                // Thumbnail image controls
+                function currentSlide(n) {
+                showSlides(slideIndex = n);
+                }
+
+                function showSlides(n) {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("dot");
+                if (n > slides.length) {slideIndex = 1}
+                if (n < 1) {slideIndex = slides.length}
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex-1].style.display = "block";
+                dots[slideIndex-1].className += " active";
+                }
+            </script>
+
+            
+            <div class="second-block">
+                <p>Moreover, for my final year project, I used the aforementioned skills I had acquired in the development and design of the 
+                    user interface for a computer-aided manufacturing software. The application was made to ensure a user-friendly program for 
+                    the generation of meshes of engineering materials and further reinforced my "system's" efficiency of heading into software.
+                </p>
+                <p>Currently, I am registered for a class in SQL and data programming being offered by CodeFirstGirls, where I am gaining 
+                    skills in dealing with databases and their management of big data. I am also enrolled in a bootcamp known as Umuzi. It 
+                    helps in my learning of all the ins and outs of web development such as proper coding practices, test driven development, 
+                    object oriented programming etc. I have also learned the basics of a new language, JavaScript, which is an added bonus.I 
+                    look forward to learning more and using this knowledge for the creation of even more complex and impactful projects. The goal remains
+                    keeping the momentum and efficiency of this system going long enough to discover its final function.
+                </p>
+                        
+            </div> 
+            <footer class="footer">
+                <img src="Images/personal_logo2.PNG">
+                <p>&copy; Copyright2021 MariaO.</p>
+            </footer>
+        </body>
         
     </div>
 </html>

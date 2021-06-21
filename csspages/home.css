@@ -4,6 +4,9 @@
     grid-template-rows: 0.1fr 0.25fr repeat(3,0.15fr) 0.14fr 0.1fr;
     background-color: whitesmoke;
 }
+body{
+    background-color: whitesmoke;
+}
 #branding {
     grid-row: 1 / 2;
     grid-column: 1 / -1;

@@ -10,6 +10,9 @@
       "pic-block2 second-block"
       "footer footer";
 }
+body{
+    background-color: whitesmoke;
+}
 #branding{
     color:white;
     background-color: teal;

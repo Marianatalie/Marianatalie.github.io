@@ -4,6 +4,9 @@
     grid-template-rows: 0.15fr repeat(3,0.12fr) repeat(6,0.1fr) 0.15fr;
     background-color: whitesmoke;
 }
+body{
+    background-color: whitesmoke;
+}
 #branding{
     color:white;
     background-color: teal;
