@@ -11,7 +11,8 @@
             <header>
                 <h1 id="header-logo"><img src="Images/personal_logo2.PNG"></h1>
                 
-                <nav class="nav-lists">
+                <nav id= "mySidebar" class="nav-lists">
+                    <p><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a></p>
                     <p><a href = "home.html">home.</a></p>
                     <p><a class= "active" href ="about.html">about.</a></p>
                     <p><a href = "skills.html">skills.</a></p>
@@ -20,6 +21,21 @@
                     <p><a href = "contacts.html">contacts.</a></p>
 
                 </nav>
+                <div id="main">
+                    <button class="openbtn" onclick="openNav()">&#9776;</button>
+                </div>
+                <script>
+                    function openNav() {
+                        document.getElementById("mySidebar").style.width = "250px";
+                        document.getElementById("main").style.marginLeft = "250px";
+                    }
+
+            
+                    function closeNav() {
+                        document.getElementById("mySidebar").style.width = "0";
+                        document.getElementById("main").style.marginLeft = "0";
+                    }
+                </script>
             </header>
         </div>
 
