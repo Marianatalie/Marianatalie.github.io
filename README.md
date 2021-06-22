@@ -1,1 +1,1 @@
-https://marianatalie.github.io/home.html
+https://marianatalie.github.io/index.html
