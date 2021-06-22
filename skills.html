@@ -1,78 +1,94 @@
 <!DOCTYPE html>
 <html>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <head>
-        <title>My Skills</title>
-        <link rel="stylesheet" href="csspages/skills.css">
-    </head>
-    <div class="container">
-        <div id="branding">
-            <header>
-                <h1 id="header-logo"><img src="Images/personal_logo2.PNG"></h1>
-            
-                <nav id= "mySidebar" class="nav-lists">
-                    <p><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a></p>
-                    <p><a href = "home.html">home.</a></p>
-                    <p><a href = "about.html">about.</a></p>
-                    <p><a class= "active" href = "skills.html">skills.</a></p>
-                    <p><a href = "interests.html">interests.</a></p>
-                    <p><a href = "portfolio.html">portfolio.</a></p>
-                    <p><a href = "contacts.html">contacts.</a></p>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <head>
+    <title>My Skills</title>
+    <link rel="stylesheet" href="csspages/skills.css" />
+  </head>
+  <div class="container">
+    <div id="branding">
+      <header>
+        <h1 id="header-logo"><img src="Images/personal_logo2.PNG" /></h1>
 
-                </nav>
-                <div id="main">
-                    <button class="openbtn" onclick="openNav()">&#9776;</button>
-                </div>
-                <script>
-                    function openNav() {
-                        document.getElementById("mySidebar").style.width = "250px";
-                        document.getElementById("main").style.marginLeft = "250px";
-                    }
+        <nav id="mySidebar" class="nav-lists">
+          <p>
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+              >&times;</a
+            >
+          </p>
+          <p><a href="home.html">home.</a></p>
+          <p><a href="about.html">about.</a></p>
+          <p><a class="active" href="skills.html">skills.</a></p>
+          <p><a href="interests.html">interests.</a></p>
+          <p><a href="portfolio.html">portfolio.</a></p>
+          <p><a href="contacts.html">contacts.</a></p>
+        </nav>
+        <div id="main">
+          <button class="openbtn" onclick="openNav()">&#9776;</button>
+        </div>
+        <script>
+          function openNav() {
+            document.getElementById("mySidebar").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px";
+          }
 
-            
-                    function closeNav() {
-                        document.getElementById("mySidebar").style.width = "0";
-                        document.getElementById("main").style.marginLeft = "0";
-                    }
-                </script>
-            </header>
-        </div>
-
-    
-        <div class="sub-heading">
-            <h2>skills.</h2>
-        </div>
-
-        <div class="opener">
-            <h3>My skills and range of expertise include the following:</h3>
-        </div>
-        <div class="list1">
-            <p class="right"><img src="Images/css_logo.png" style="transform: rotate(20deg);"></p>
-            <p class="right"><img src="Images/HTML5_logo.png" style="transform: rotate(-20deg);"></p><br>
-            <p class="right"><img src="Images/MATLAB-logo.png" style="transform: rotate(20deg);"></p>
-        </div>
-        <div class="list">
-            <ul id="skill-list">
-                <li>C Programming</li>
-                <li>Python Programming</li>
-                <li>JavaScript Programming</li>
-                <li>HTML & CSS</li>
-                <li>MATLAB Programming</li>
-                <li>Embedded Programming</li>
-                <li>Proficient in MySQL</li>
-                <li>Analytical Problem Solving</li>
-                <li>Mathematical Skills</li>
-            </ul>
-        </div>
-        <div class="list3">
-            <p class="left"><img src="Images/JavaScript_logo.png" style="transform: rotate(-5deg); "></p>
-            <p class="left"><img src="Images/C_logo.png" style="transform: rotate(5deg);"></p>
-            <p class="left"><img src="Images/python_logo.png" style="transform: rotate(-5deg);"></p>
-        </div>
-        <footer class="footer">
-            <img src="Images/personal_logo2.PNG">
-            <p>&copy; Copyright 2021 MariaO.</p>
-        </footer>
+          function closeNav() {
+            document.getElementById("mySidebar").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0";
+          }
+        </script>
+      </header>
     </div>
+
+    <div class="sub-heading">
+      <h2>skills.</h2>
+    </div>
+
+    <div class="opener">
+      <h3>My skills and range of expertise include the following:</h3>
+    </div>
+    <div class="list1">
+      <p class="right">
+        <img src="Images/css_logo.png" style="transform: rotate(20deg)" />
+      </p>
+      <p class="right">
+        <img src="Images/HTML5_logo.png" style="transform: rotate(-20deg)" />
+      </p>
+      <br />
+      <p class="right">
+        <img src="Images/MATLAB-logo.png" style="transform: rotate(20deg)" />
+      </p>
+    </div>
+    <div class="list">
+      <ul id="skill-list">
+        <li>C Programming</li>
+        <li>Python Programming</li>
+        <li>JavaScript Programming</li>
+        <li>HTML & CSS</li>
+        <li>MATLAB Programming</li>
+        <li>Embedded Programming</li>
+        <li>Proficient in MySQL</li>
+        <li>Analytical Problem Solving</li>
+        <li>Mathematical Skills</li>
+      </ul>
+    </div>
+    <div class="list3">
+      <p class="left">
+        <img
+          src="Images/JavaScript_logo.png"
+          style="transform: rotate(-5deg)"
+        />
+      </p>
+      <p class="left">
+        <img src="Images/C_logo.png" style="transform: rotate(5deg)" />
+      </p>
+      <p class="left">
+        <img src="Images/python_logo.png" style="transform: rotate(-5deg)" />
+      </p>
+    </div>
+    <footer class="footer">
+      <img src="Images/personal_logo2.PNG" />
+      <p>&copy; Copyright 2021 MariaO.</p>
+    </footer>
+  </div>
 </html>
-     

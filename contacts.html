@@ -1,89 +1,112 @@
 <!DOCTYPE html>
 <html>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <head>
-        <title>Contacts</title>
-        <link rel="stylesheet" href="csspages/contacts.css">
-    </head>
-    <div class="container">
-        <div id="branding">
-            <header>
-                <h1 id="header-logo"><img src="Images/personal_logo2.PNG"></h1>
-               
-                <nav id= "mySidebar" class="nav-lists">
-                    <p><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a></p>
-                    <p><a href = "home.html">home.</a></p>
-                    <p><a href = "about.html">about.</a></p>
-                    <p><a href = "skills.html">skills.</a></p>
-                    <p><a href = "interests.html">interests.</a></p>
-                    <p><a href = "portfolio.html">portfolio.</a></p>
-                    <p><a class= "active" href = "contacts.html">contacts.</a></p>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <head>
+    <title>Contacts</title>
+    <link rel="stylesheet" href="csspages/contacts.css" />
+  </head>
+  <div class="container">
+    <div id="branding">
+      <header>
+        <h1 id="header-logo"><img src="Images/personal_logo2.PNG" /></h1>
 
-                </nav>
-                <div id="main">
-                    <button class="openbtn" onclick="openNav()">&#9776;</button>
-                </div>
-                <script>
-                    function openNav() {
-                        document.getElementById("mySidebar").style.width = "250px";
-                        document.getElementById("main").style.marginLeft = "250px";
-                    }
-
-            
-                    function closeNav() {
-                        document.getElementById("mySidebar").style.width = "0";
-                        document.getElementById("main").style.marginLeft = "0";
-                    }
-                </script>
-            </header>
+        <nav id="mySidebar" class="nav-lists">
+          <p>
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+              >&times;</a
+            >
+          </p>
+          <p><a href="home.html">home.</a></p>
+          <p><a href="about.html">about.</a></p>
+          <p><a href="skills.html">skills.</a></p>
+          <p><a href="interests.html">interests.</a></p>
+          <p><a href="portfolio.html">portfolio.</a></p>
+          <p><a class="active" href="contacts.html">contacts.</a></p>
+        </nav>
+        <div id="main">
+          <button class="openbtn" onclick="openNav()">&#9776;</button>
         </div>
-        <body>
-            <div class="sub-heading">
-                <h2>contact.</h2>
-            </div>
+        <script>
+          function openNav() {
+            document.getElementById("mySidebar").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px";
+          }
 
-            <div class="theme-intro">
-                <h4>contact information</h4>
-            </div>
-
-            <div class="address contact-info">
-                <img src="Images/navicon.jpg" class="photoicon" alt="An image of a navigation arrow" width="50" height="50">
-                <p><span>Address:</span> Lang'ata, Kitengela Road, </p>
-                <p>Nairobi</p><br>
-            </div>
-
-            <div class="number contact-info">
-                <img src="Images/phoneicon.jpg" class="photoicon" alt="An image of a small phone" width="50" height="50">
-                <p><span>Phone Number:</span> +254724166582</p>
-                <p><span>Alternative Phone Number:</span> +447547787291</p><br>
-            </div>
-
-            <div class="email contact-info">
-                <img src="Images/emailicon.jpg" class="photoicon" alt="An image of a letter" width="50" height="50">
-                <p><span>E-mail address: </span>marianatalie643@gmail.com</p><br>
-            </div>
-
-            <div class="opener">
-                <h3>Trying to get in contact with me? Want to chat? No problem!</h3>
-            </div>
-
-            <div class="button-group">
-                <form method="post" action="mailto:marianatalie643@gmail.com">
-                    <input class="input" type="text" placeholder="name">
-                    <span class="underline"></span><br>
-                    <input class="input" type="text" placeholder="email">
-                    <span class="underline"></span><br>
-                    <input class="input" type="text" placeholder="phone">
-                    <span class="underline"></span><br>
-                    <input class="input" type="text" placeholder="message">
-                    <span class="underline"></span><br>
-                    <button class="button" type="submit">Submit</button> 
-                </form>
-            </div>
-            <footer class="footer">
-                <img src="Images/personal_logo2.PNG">
-                <p>&copy; Copyright 2021 MariaO.</p>
-            </footer>
-        </body>
+          function closeNav() {
+            document.getElementById("mySidebar").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0";
+          }
+        </script>
+      </header>
     </div>
+    <body>
+      <div class="sub-heading">
+        <h2>contact.</h2>
+      </div>
+
+      <div class="theme-intro">
+        <h4>contact information</h4>
+      </div>
+
+      <div class="address contact-info">
+        <img
+          src="Images/navicon.jpg"
+          class="photoicon"
+          alt="An image of a navigation arrow"
+          width="50"
+          height="50"
+        />
+        <p><span>Address:</span> Lang'ata, Kitengela Road,</p>
+        <p>Nairobi</p>
+        <br />
+      </div>
+
+      <div class="number contact-info">
+        <img
+          src="Images/phoneicon.jpg"
+          class="photoicon"
+          alt="An image of a small phone"
+          width="50"
+          height="50"
+        />
+        <p><span>Phone Number:</span> +254724166582</p>
+        <p><span>Alternative Phone Number:</span> +447547787291</p>
+        <br />
+      </div>
+
+      <div class="email contact-info">
+        <img
+          src="Images/emailicon.jpg"
+          class="photoicon"
+          alt="An image of a letter"
+          width="50"
+          height="50"
+        />
+        <p><span>E-mail address: </span>marianatalie643@gmail.com</p>
+        <br />
+      </div>
+
+      <div class="opener">
+        <h3>Trying to get in contact with me? Want to chat? No problem!</h3>
+      </div>
+
+      <div class="button-group">
+        <form method="post" action="mailto:marianatalie643@gmail.com">
+          <input class="input" type="text" placeholder="name" />
+          <span class="underline"></span><br />
+          <input class="input" type="text" placeholder="email" />
+          <span class="underline"></span><br />
+          <input class="input" type="text" placeholder="phone" />
+          <span class="underline"></span><br />
+          <input class="input" type="text" placeholder="message" />
+          <span class="underline"></span><br />
+          <button class="button" type="submit">Submit</button>
+        </form>
+      </div>
+      <footer class="footer">
+        <img src="Images/personal_logo2.PNG" />
+        <p>&copy; Copyright 2021 MariaO.</p>
+      </footer>
+    </body>
+  </div>
 </html>

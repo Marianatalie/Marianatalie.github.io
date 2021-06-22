@@ -1,90 +1,187 @@
 <!DOCTYPE html>
 <html>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <head>
-        <title>Home</title>
-        <link rel="stylesheet" href="csspages/home.css">
-    </head>
-    <div class="container">
-        <div id="branding">
-            <header>
-                <h1 id="header-logo"><img src="Images/personal_logo2.PNG"></h1>
-                
-                <nav id= "mySidebar" class="nav-lists">
-                    <p><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a></p>
-                    <p><a class= "active" href ="home.html">home.</a></p>
-                    <p><a href ="about.html">about.</a></p>
-                    <p><a href = "skills.html">skills.</a></p>
-                    <p><a href = "interests.html">interests.</a></p>
-                    <p><a href = "portfolio.html">portfolio.</a></p>
-                    <p><a href = "contacts.html">contacts.</a></p>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <head>
+    <title>Home</title>
+    <link rel="stylesheet" href="csspages/home.css" />
+  </head>
+  <div class="container">
+    <div id="branding">
+      <header>
+        <h1 id="header-logo"><img src="Images/personal_logo2.PNG" /></h1>
 
-                </nav>
-                <div id="main">
-                    <button class="openbtn" onclick="openNav()">&#9776;</button>
-                </div>
-                <script>
-                    function openNav() {
-                        document.getElementById("mySidebar").style.width = "250px";
-                        document.getElementById("main").style.marginLeft = "250px";
-                    }
-
-            
-                    function closeNav() {
-                        document.getElementById("mySidebar").style.width = "0";
-                        document.getElementById("main").style.marginLeft = "0";
-                    }
-                </script>
-            </header>
+        <nav id="mySidebar" class="nav-lists">
+          <p>
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+              >&times;</a
+            >
+          </p>
+          <p><a class="active" href="home.html">home.</a></p>
+          <p><a href="about.html">about.</a></p>
+          <p><a href="skills.html">skills.</a></p>
+          <p><a href="interests.html">interests.</a></p>
+          <p><a href="portfolio.html">portfolio.</a></p>
+          <p><a href="contacts.html">contacts.</a></p>
+        </nav>
+        <div id="main">
+          <button class="openbtn" onclick="openNav()">&#9776;</button>
         </div>
-        <body>
-            <div class="sub-heading">
-                <img src="Images/laptop.jpg" class="laptop-pic" alt = "An image showing a workspace with a laptop and books" style="width:80%">
-                <h2 class="theme">Maria Otieno</h2>
-                <h3 class="theme-intro">An engineering graduate, with a strong affinity for all things tech. Deeply passionate lover of learning and creation of impactful products and services for society. </h3>
-            </div>
-            <br>
-            <div class="subsection skills">
-                <img src="Images/icon2.jpg" alt="Skills" class="photo-id" width="50" height="50">
-                <p>On my journey of venturing into the engineering and tech space, I picked up a myriad of skills.</p>
-                <br><br>
-                <button type="button" class="button-right" onclick="window.location.href = 'skills.html';">Read More</button>
-            </div><br>
-            <div class=" grid grid1">
-                <div class="horizontal"><img src="Images/skills.jpg" alt="Stock picture image of skills" style="width: 600px;height: 200px;"></div>
-            </div>
-            <div class="subsection about">
-                <img src="Images/icon1.jpg" alt="about" class="photo-id" width="50" height="50">
-                <p>It's always the small pieces that make the bigger picture. Here's a peek at my story.</p>
-                <br><br>
-                <button type="button" class="button-left" onclick="window.location.href = 'about.html';">Read More</button>
-            </div><br>
-            <div class=" grid grid2">
-                <div class="horizontal"><img src="Images/about_me.jpg" alt="Snippets of code" style="width: 600px;height: 200px;"></div>
-            </div>
-            <div class="subsection interests">
-                <img src="Images/icon4.jpg" alt = "Picture of assortment of interests" class="photo-id" width="50" height="50">
-                <p>What is life if not to have an assortment of hobbies that make it all the more worthwhile. Take a peek into my life!</p>
-                <br><br>
-                <button type="button" class="button-right" onclick="window.location.href = 'interests.html';">Read More</button>
-            </div>
-            <div class=" grid grid3">
-                <div class="horizontal"><img src="Images/hobbies.jpg" alt="Snippets of code" style="width: 600px;height: 200px;"></div>
-            </div>
-            <div class="subsection portfolio">
-                <img src="Images/icon3.jpg" alt= "Picture of folders" class="photo-id" width="50" height="50">
-                <p>"For the things we have to learn before we can do them, we learn by doing them." </p>
-                <p>-Aristotle</p>
-                <br><br>
-                <button type="button" class="button-left" onclick="window.location.href = 'portfolio.html';">Read More</button>
-            </div>
-            <div class=" grid grid4">
-                <div class="horizontal"><img src="Images/portfolio.jpg" alt="Snippets of code" style="width: 600px;height: 200px;"></div>
-            </div>
-            <footer class="footer">
-                <img src="Images/personal_logo2.PNG">
-                <p>&copy; Copyright 2021 MariaO.</p>
-            </footer>
-        </body>
+        <script>
+          function openNav() {
+            document.getElementById("mySidebar").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px";
+          }
+
+          function closeNav() {
+            document.getElementById("mySidebar").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0";
+          }
+        </script>
+      </header>
     </div>
+    <body>
+      <div class="sub-heading">
+        <img
+          src="Images/laptop.jpg"
+          class="laptop-pic"
+          alt="An image showing a workspace with a laptop and books"
+          style="width: 80%"
+        />
+        <h2 class="theme">Maria Otieno</h2>
+        <h3 class="theme-intro">
+          An engineering graduate, with a strong affinity for all things tech.
+          Deeply passionate lover of learning and creation of impactful products
+          and services for society.
+        </h3>
+      </div>
+      <br />
+      <div class="subsection skills">
+        <img
+          src="Images/icon2.jpg"
+          alt="Skills"
+          class="photo-id"
+          width="50"
+          height="50"
+        />
+        <p>
+          On my journey of venturing into the engineering and tech space, I
+          picked up a myriad of skills.
+        </p>
+        <br /><br />
+        <button
+          type="button"
+          class="button-right"
+          onclick="window.location.href = 'skills.html';"
+        >
+          Read More
+        </button>
+      </div>
+      <br />
+      <div class="grid grid1">
+        <div class="horizontal">
+          <img
+            src="Images/skills.jpg"
+            alt="Stock picture image of skills"
+            style="width: 600px; height: 200px"
+          />
+        </div>
+      </div>
+      <div class="subsection about">
+        <img
+          src="Images/icon1.jpg"
+          alt="about"
+          class="photo-id"
+          width="50"
+          height="50"
+        />
+        <p>
+          It's always the small pieces that make the bigger picture. Here's a
+          peek at my story.
+        </p>
+        <br /><br />
+        <button
+          type="button"
+          class="button-left"
+          onclick="window.location.href = 'about.html';"
+        >
+          Read More
+        </button>
+      </div>
+      <br />
+      <div class="grid grid2">
+        <div class="horizontal">
+          <img
+            src="Images/about_me.jpg"
+            alt="Snippets of code"
+            style="width: 600px; height: 200px"
+          />
+        </div>
+      </div>
+      <div class="subsection interests">
+        <img
+          src="Images/icon4.jpg"
+          alt="Picture of assortment of interests"
+          class="photo-id"
+          width="50"
+          height="50"
+        />
+        <p>
+          What is life if not to have an assortment of hobbies that make it all
+          the more worthwhile. Take a peek into my life!
+        </p>
+        <br /><br />
+        <button
+          type="button"
+          class="button-right"
+          onclick="window.location.href = 'interests.html';"
+        >
+          Read More
+        </button>
+      </div>
+      <div class="grid grid3">
+        <div class="horizontal">
+          <img
+            src="Images/hobbies.jpg"
+            alt="Snippets of code"
+            style="width: 600px; height: 200px"
+          />
+        </div>
+      </div>
+      <div class="subsection portfolio">
+        <img
+          src="Images/icon3.jpg"
+          alt="Picture of folders"
+          class="photo-id"
+          width="50"
+          height="50"
+        />
+        <p>
+          "For the things we have to learn before we can do them, we learn by
+          doing them."
+        </p>
+        <p>-Aristotle</p>
+        <br /><br />
+        <button
+          type="button"
+          class="button-left"
+          onclick="window.location.href = 'portfolio.html';"
+        >
+          Read More
+        </button>
+      </div>
+      <div class="grid grid4">
+        <div class="horizontal">
+          <img
+            src="Images/portfolio.jpg"
+            alt="Snippets of code"
+            style="width: 600px; height: 200px"
+          />
+        </div>
+      </div>
+      <footer class="footer">
+        <img src="Images/personal_logo2.PNG" />
+        <p>&copy; Copyright 2021 MariaO.</p>
+      </footer>
+    </body>
+  </div>
 </html>
