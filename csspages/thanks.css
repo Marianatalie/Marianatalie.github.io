@@ -1,0 +1,38 @@
+.container {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows:0.15fr 1fr 0.1fr 0.15fr;
+    background-color: whitesmoke;
+    }
+ 
+#header-logo {
+    grid-row: 1 / 2;
+    color: white;
+    background-color: teal;
+    text-align: center;
+  }
+.thanks{
+    grid-row: 2 / 3;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    height: 10em;
+    position: relative;
+    display: table;
+}
+.thanks > h1{
+    display: table-cell;
+    vertical-align: middle;
+}
+.button{
+    grid-row: 3 / 4;
+    margin: 0px 0px 10px 50px;
+}
+
+.footer {
+    grid-row: 4 / 5;
+    background-color: teal;
+    font-family: Arial, Helvetica, sans-serif;
+  }

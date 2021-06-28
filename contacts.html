@@ -91,16 +91,18 @@
       </div>
 
       <div class="button-group">
-        <form method="post" action="contact.php">
+        <form id="Contact form" method="post" action=https://formspree.io/f/mbjqkgwv>
           <input name="sender" class="input" type="text" placeholder="name" />
           <span class="underline"></span><br />
-          <input name="senderEmail" class="input" type="text" placeholder="email" />
+          <input name="_replyto" class="input" type="text" placeholder="Your email" />
           <span class="underline"></span><br />
-          <input name="senderNumber" class="input" type="text" placeholder="phone" />
+          <input name="senderNumber" class="input" type="text" placeholder="Your phone number" />
           <span class="underline"></span><br />
           <textarea name="message" class="input message" type="text" placeholder="message"></textarea>
           <span class="underline"></span><br />
-          <button class="button" type="submit">Submit</button>
+          <input type="hidden" name="_subject" value="Website contact" />
+          <input type="hidden" name="_next" value="Thanks.html" />
+          <input class="button" type="submit" value="submit">
         </form>
       </div>
       <footer class="footer">
