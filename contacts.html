@@ -91,14 +91,14 @@
       </div>
 
       <div class="button-group">
-        <form method="post" action="mailto:marianatalie643@gmail.com">
-          <input class="input" type="text" placeholder="name" />
+        <form method="post" action="contact.php">
+          <input name="sender" class="input" type="text" placeholder="name" />
           <span class="underline"></span><br />
-          <input class="input" type="text" placeholder="email" />
+          <input name="senderEmail" class="input" type="text" placeholder="email" />
           <span class="underline"></span><br />
-          <input class="input" type="text" placeholder="phone" />
+          <input name="senderNumber" class="input" type="text" placeholder="phone" />
           <span class="underline"></span><br />
-          <input class="input" type="text" placeholder="message" />
+          <textarea name="message" class="input message" type="text" placeholder="message"></textarea>
           <span class="underline"></span><br />
           <button class="button" type="submit">Submit</button>
         </form>

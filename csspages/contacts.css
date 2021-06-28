@@ -320,6 +320,10 @@
     top: 50%;
     width: 200px;
   }
+  .message{
+    padding: 50px 0px 0px 0px;
+    height:200px;
+  }
   .input:focus {
     outline: none;
   }
