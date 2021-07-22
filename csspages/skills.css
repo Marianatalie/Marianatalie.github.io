@@ -36,7 +36,7 @@
   .list {
     grid-row: 4 / 5;
     grid-column: 1 / -1;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     padding: 0px 75px 0px 75px;
@@ -53,8 +53,8 @@
     border: teal;
     background-color: whitesmoke;
     border-style: groove;
-    border-radius: 50px;
-    border-width: 10px;
+    border-radius: 2rem;
+    border-width: 0.75rem;
   }
   .footer {
     grid-row: 5 / 6;
