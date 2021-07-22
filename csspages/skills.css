@@ -198,7 +198,7 @@
   }
   .list {
     grid-area: list2;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     padding: 0px 2em 0px 2em;
