@@ -110,7 +110,9 @@
   .openbtn:hover {
     background-color: #444;
   }
-
+  .my-cv a {
+    text-decoration: none;
+  }
   #main {
     transition: margin-left 0.5s;
     padding: 20px;
@@ -188,6 +190,9 @@
     background-color: darkcyan;
     color: white;
   }
+  .myCV a {
+    text-decoration: none;
+  }
   .sub-heading {
     grid-area: sub-heading;
     text-align: center;
@@ -216,6 +221,7 @@
     font-weight: 400;
     float: left;
     font-size: 1rem;
+    margin-right: 15px;
   }
   .pic-block > div {
     display: flex;

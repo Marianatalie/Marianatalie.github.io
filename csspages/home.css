@@ -2,7 +2,7 @@
   .container {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 0.1fr 0.25fr repeat(4, 0.15fr) 0.1fr;
+    grid-template-rows: 0.1fr 0.25fr repeat(3, 0.15fr) 0.1fr;
     background-color: whitesmoke;
     overflow: hidden;
   }
@@ -55,13 +55,8 @@
     grid-column: 1 / -1;
     background-color: #cce8e8;
   }
-  .interests {
-    grid-row: 5 / 6;
-    grid-column: 1 / -1;
-    background-color: #cce8e8;
-  }
   .portfolio {
-    grid-row: 6 / 7;
+    grid-row: 5 / 6;
 
     grid-column: 1 / -1;
   }
@@ -74,7 +69,7 @@
     display: none;
   }
   .footer {
-    grid-row: 7 / 8;
+    grid-row: 6 / 7;
     grid-column: 1 / -1;
     background-color: teal;
     font-family: Arial, Helvetica, sans-serif;
@@ -153,7 +148,7 @@
   .container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 0.1fr 0.25fr repeat(3, 0.15fr) 0.14fr 0.1fr;
+    grid-template-rows: 0.1fr 0.25fr repeat(3, 0.15fr) 0.1fr;
     background-color: whitesmoke;
     overflow: hidden;
   }
@@ -251,13 +246,9 @@
     grid-row: 4 / 5;
     grid-column: 1 / 2;
   }
-  .grid3 {
+  .grid4 {
     grid-row: 5 / 6;
     grid-column: 2 / -1;
-  }
-  .grid4 {
-    grid-row: 6 / 7;
-    grid-column: 1 / 2;
   }
   .skills {
     grid-row: 3 / 4;
@@ -271,16 +262,11 @@
 
     margin-left: 50px;
   }
-  .interests {
+  .portfolio {
     grid-row: 5 / 6;
 
+    grid-column: 1 / 2;
     margin-right: 50px;
-  }
-  .portfolio {
-    grid-row: 6 / 7;
-
-    grid-column: 2 / -1;
-    margin-left: 50px;
   }
   .subsection {
     padding: 0px 100px 0px 100px;
@@ -299,7 +285,7 @@
     float: left;
   }
   .footer {
-    grid-row: 7 / 8;
+    grid-row: 6 / 7;
     grid-column: 1 / -1;
     background-color: teal;
     font-family: Arial, Helvetica, sans-serif;
