@@ -197,6 +197,16 @@
       font-family: Arial, Helvetica, sans-serif;
       color: white;
   }
+  .footer a {
+    text-decoration: underline;
+    text-decoration-style: double;
+    color: red;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: white;
+    transition: transform .2s;
+  }
 
   @media screen and (max-height: 450px) {
     .sidebar {
@@ -427,6 +437,16 @@
     background-color: teal;
     font-family: Arial, Helvetica, sans-serif;
     color:white;
+  }
+  .footer a {
+    text-decoration: underline;
+    text-decoration-style: double;
+    color: red;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: white;
+    transition: transform .2s;
   }
   .social-media{
     margin-left:300px;
