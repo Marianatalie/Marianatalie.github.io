@@ -114,8 +114,8 @@
   }
   .my-cv a {
     text-decoration: none;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color:white;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: white;
     background-color: steelblue;
     font-size: larger;
   }
@@ -126,14 +126,14 @@
     transition: margin-left 0.5s;
     padding: 20px;
   }
-  .social-media{
-    margin-left:12em;
-    margin-top: -50px
+  .social-media {
+    margin-left: 12em;
+    margin-top: -50px;
   }
-  .footer{
-      background-color: teal;
-      font-family: Arial, Helvetica, sans-serif;
-      color: white;
+  .footer {
+    background-color: teal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
   }
 
   @media screen and (max-height: 450px) {
@@ -189,7 +189,6 @@
     text-align: center;
     text-decoration: none;
     font-size: 15px;
-
   }
   .nav-lists a:hover {
     background-color: #ddd;
@@ -201,10 +200,14 @@
   }
   .my-cv a {
     text-decoration: none;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color:white;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: white;
     background-color: steelblue;
     font-size: larger;
+    margin-bottom: 10px;
+  }
+  .subsection-p {
+    margin-left: 10px;
   }
   .subsection a:hover {
     font-size: 120%;
@@ -268,12 +271,11 @@
     grid-area: footer;
     background-color: teal;
     font-family: Arial, Helvetica, sans-serif;
-    color:white;
+    color: white;
     padding-bottom: 10px;
   }
-  .social-media{
-    margin-left:300px;
+  .social-media {
+    margin-left: 300px;
     margin-top: -35px;
-    
   }
 }
