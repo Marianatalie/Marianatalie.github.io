@@ -135,6 +135,9 @@
     font-family: Arial, Helvetica, sans-serif;
     color: white;
   }
+  .copyright {
+    margin-left: 10px;
+  }
 
   @media screen and (max-height: 450px) {
     .sidebar {
@@ -273,6 +276,9 @@
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     padding-bottom: 10px;
+  }
+  .copyright {
+    margin-left: 10px;
   }
   .social-media {
     margin-left: 300px;

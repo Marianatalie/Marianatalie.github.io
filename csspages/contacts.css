@@ -71,7 +71,6 @@
     grid-row: 8 / 9;
     grid-column: 1 / -1;
     background-color: whitesmoke;
-
   }
   .input {
     background-color: transparent;
@@ -88,7 +87,6 @@
     position: relative;
     top: 50%;
     width: 200px;
-    
   }
   .input:focus {
     outline: none;
@@ -178,34 +176,38 @@
   .openbtn:hover {
     background-color: #444;
   }
-  .message{
+  .message {
     padding: 50px 0px 0px 0px;
-    height:200px;
+    height: 200px;
   }
 
   #main {
     transition: margin-left 0.5s;
     padding: 20px;
   }
-  .social-media{
-    margin-left:12em;
-    margin-top: -50px
+  .social-media {
+    margin-left: 12em;
+    margin-top: -50px;
   }
-  .footer{
-      margin-top: 15px;
-      background-color: teal;
-      font-family: Arial, Helvetica, sans-serif;
-      color: white;
+  .footer {
+    margin-top: 15px;
+    background-color: teal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+  .copyright {
+    margin-left: 10px;
   }
   .footer a {
     text-decoration: underline;
     text-decoration-style: double;
     color: red;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
     text-transform: uppercase;
     cursor: pointer;
     background-color: white;
-    transition: transform .2s;
+    transition: transform 0.2s;
   }
 
   @media screen and (max-height: 450px) {
@@ -256,7 +258,6 @@
     text-align: center;
     text-decoration: none;
     font-size: 15px;
- 
   }
   .nav-lists a:hover {
     background-color: #ddd;
@@ -321,52 +322,48 @@
     background-color: #cce8e8;
     display: flex;
   }
-  .circle{
+  .circle {
     width: 60px;
     height: 30px;
     border-radius: 50%;
-    background: linear-gradient(
-      35deg,
-      #20bf55,
-      #01baef
-    );
+    background: linear-gradient(35deg, #20bf55, #01baef);
     position: relative;
     top: 380px;
   }
-  .circle1{
+  .circle1 {
     right: 95%;
     animation-name: slide1;
     animation-duration: 10s;
     animation-iteration-count: infinite;
-    animation-timing-function:ease;
+    animation-timing-function: ease;
   }
-  .circle2{
+  .circle2 {
     right: 10%;
     animation-name: slide2;
     animation-duration: 10s;
     animation-iteration-count: infinite;
-    animation-timing-function:ease;
+    animation-timing-function: ease;
   }
-  @keyframes slide1{
+  @keyframes slide1 {
     0% {
-      right : 95%;
+      right: 95%;
     }
     50% {
       right: 10%;
     }
-    100%{
-      right:95%;
+    100% {
+      right: 95%;
     }
   }
-  @keyframes slide2{
+  @keyframes slide2 {
     0% {
-      right : 10%;
+      right: 10%;
     }
     50% {
       right: 95%;
     }
-    100%{
-      right:10%;
+    100% {
+      right: 10%;
     }
   }
   .button-group {
@@ -390,9 +387,9 @@
     top: 50%;
     width: 200px;
   }
-  .message{
+  .message {
     padding: 50px 0px 0px 0px;
-    height:200px;
+    height: 200px;
   }
   .input:focus {
     outline: none;
@@ -436,21 +433,24 @@
     grid-column: 1 / -1;
     background-color: teal;
     font-family: Arial, Helvetica, sans-serif;
-    color:white;
+    color: white;
+  }
+  .copyright {
+    margin-left: 10px;
   }
   .footer a {
     text-decoration: underline;
     text-decoration-style: double;
     color: red;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
     text-transform: uppercase;
     cursor: pointer;
     background-color: white;
-    transition: transform .2s;
+    transition: transform 0.2s;
   }
-  .social-media{
-    margin-left:300px;
+  .social-media {
+    margin-left: 300px;
     margin-top: -35px;
-    
   }
 }
