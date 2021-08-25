@@ -2,18 +2,15 @@
   box-sizing: border-box;
 }
 
-
 .slideshow-container {
   max-width: 1000px;
   position: relative;
   margin: auto;
 }
 
-
 .mySlides {
   display: none;
 }
-
 
 .prev,
 .next {
@@ -40,25 +37,23 @@
   border-radius: 3px 0 0 3px;
 }
 
-
 .prev:hover,
 .next:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
-
 
 .text {
   color: teal;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 600;
   font-size: 15px;
-  padding: 8px 12px;
+
   position: absolute;
-  bottom: 8px;
+
+  bottom: -3em;
   width: 100%;
   text-align: center;
 }
-
 
 .numbertext {
   color: teal;
@@ -68,7 +63,6 @@
   position: absolute;
   top: 0;
 }
-
 
 .dot {
   cursor: pointer;
@@ -85,7 +79,6 @@
 .dot:hover {
   background-color: #717171;
 }
-
 
 .fade {
   -webkit-animation-name: fade;
@@ -109,5 +102,32 @@
   }
   to {
     opacity: 1;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  .dot {
+    display: none;
+  }
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    padding-left: 3em;
+  }
+  .next {
+    left: 13em;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .next {
+    left: 375px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .next {
+    left: 350px;
   }
 }

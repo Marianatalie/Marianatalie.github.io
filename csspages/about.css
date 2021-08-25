@@ -138,6 +138,10 @@
   .copyright {
     margin-left: 10px;
   }
+  .prev,
+  .next {
+    position: fixed;
+  }
 
   @media screen and (max-height: 450px) {
     .sidebar {
