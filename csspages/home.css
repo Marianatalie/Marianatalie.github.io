@@ -309,6 +309,7 @@
     vertical-align: middle;
     background-color: #cce8e8;
     font-size: 1rem;
+    background-clip: border-box;
   }
   .subsection a {
     text-decoration: none;
