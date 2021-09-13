@@ -242,6 +242,7 @@
     background-color: teal;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
+    background-clip: content-box;
   }
   .copyright {
     margin-left: 10px;
