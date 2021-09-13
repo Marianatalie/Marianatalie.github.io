@@ -29,7 +29,8 @@
 }
 
 .prev {
-  left: 0;
+  right: 80%;
+  left: auto;
 }
 
 .next {
